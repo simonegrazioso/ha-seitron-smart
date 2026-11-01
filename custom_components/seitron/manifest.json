@@ -1,0 +1,14 @@
+{
+  "domain": "seitron",
+  "name": "Seitron Smart",
+  "codeowners": ["@simonegrazioso"],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "documentation": "https://github.com/simonegrazioso/ha-seitron-smart",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/simonegrazioso/ha-seitron-smart/issues",
+  "loggers": ["pyseitron"],
+  "requirements": ["pyseitron==0.0.1"],
+  "version": "0.1.0"
+}

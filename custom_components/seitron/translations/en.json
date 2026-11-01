@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "pick_implementation": {
+        "title": "Link your Seitron Smart account"
+      }
+    },
+    "abort": {
+      "already_configured": "Account is already configured.",
+      "already_in_progress": "Configuration flow is already in progress.",
+      "oauth_error": "Received invalid token data.",
+      "missing_configuration": "The component is not configured.",
+      "authorize_url_timeout": "Timeout generating authorize URL.",
+      "no_url_available": "No URL available.",
+      "user_rejected_authorize": "Account linking rejected."
+    },
+    "create_entry": {
+      "default": "Successfully authenticated with Seitron Smart"
+    }
+  }
+}
+

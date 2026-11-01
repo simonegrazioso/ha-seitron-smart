@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "pick_implementation": {
+        "title": "Collega il tuo account Seitron Smart"
+      }
+    },
+    "abort": {
+      "already_configured": "Questo account Seitron è già configurato.",
+      "already_in_progress": "Configurazione già in corso.",
+      "oauth_error": "Ricevuti dati OAuth2 non validi.",
+      "missing_configuration": "Il componente non è configurato. Assicurati che l'integrazione cloud/default_config sia attiva.",
+      "authorize_url_timeout": "Timeout durante la generazione dell'URL di autorizzazione.",
+      "no_url_available": "Nessun URL disponibile.",
+      "user_rejected_authorize": "Autorizzazione rifiutata."
+    },
+    "create_entry": {
+      "default": "Autenticazione Seitron Smart completata con successo"
+    }
+  }
+}
+
