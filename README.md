@@ -14,12 +14,12 @@ Tested and validated on **Seitron Wi-Time Wall**; architecturally compatible wit
 ## Supported Features
 
 - **HVAC Modes & Thermostat Operation**:
-  - `auto` (**Crono / Programma**): Runs the weekly scheduled temperature program configured on the thermostat.
-  - `heat` (**Manuale Riscaldamento**): Sets manual heating mode at the desired target temperature.
-  - `cool` (**Manuale Raffrescamento**): Sets manual cooling/air conditioning mode.
-  - `off` (**Spento / Antigelo**): Turns off active heating/cooling, switching the thermostat to frost-protection mode (antifreeze at 5.0 °C).
+  - `auto`: Runs the weekly scheduled temperature program configured on the thermostat.
+  - `heat`: Sets manual heating mode at the desired target temperature.
+  - `cool`: Sets manual cooling/air conditioning mode.
+  - `off`: Turns off active heating/cooling, switching the thermostat to frost-protection mode (antifreeze at 5.0 °C).
 - **Turn On / Turn Off**:
-  - `turn_on`: Turns on the thermostat, defaulting to `auto` (Crono scheduled program).
+  - `turn_on`: Turns on the thermostat, defaulting to `auto` (scheduled program).
   - `turn_off`: Turns off the thermostat into `off` (frost protection mode).
 - **Target Temperature**: Adjustable setpoint from 5.0 °C to 35.0 °C with 0.1 °C precision.
 - **Current Temperature**: Real-time ambient room temperature reporting with 0.1 °C resolution.
